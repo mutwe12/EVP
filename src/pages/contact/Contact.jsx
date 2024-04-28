@@ -17,21 +17,21 @@ const Contact = () => {
     e.preventDefault();
     if (!user) {
       // If user is not logged in, redirect to login page
-      // navigate('/login');
+       navigate('/login');
       toast.error(
         "Please Log in first!"
       );
       return;
     }
     // Handle form submission logic here
-    //console.log("Email:", email);
-    //console.log("Subject:", subject);
-    //console.log("Message:", message);
+    console.log("Email:", email);
+    console.log("Subject:", subject);
+    console.log("Message:", message);
     const info = {
       email, subject, message
     }
     axiosPublic.post('/contact', info).then(res => {
-      //console.log(res.data)
+      console.log(res.data)
 
     })
   };
@@ -75,7 +75,7 @@ const Contact = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="shadow-sm bg-gray-50 outline-none border border-gray-300 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
-                placeholder="name@dreamcraft.com"
+                placeholder="email"
                 required
               />
             </div>

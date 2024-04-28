@@ -29,7 +29,7 @@ const Description = () => {
                     <div>
                         <MdOutlineLocationOn className="text-4xl text-primary" />
                         <h4 className="mt-6 text-3xl font-semibold">Your Desired Venue</h4>
-                        <p className="mt-2 text-xl font-medium text-primary">Bangladesh</p>
+                        <p className="mt-2 text-xl font-medium text-primary">Kigali Rwanda</p>
                     </div>
                     <div>
                         <LuDollarSign className="text-4xl text-primary" />
@@ -51,9 +51,9 @@ const Description = () => {
                 </div>
             </div>
             <div className="my-20">
-                <h2 className="text-lg text-red-600">InnovateSphere - Tech & Beyond Summit</h2>
+                <h2 className="text-lg text-red-600">Innovaation in  - Tech & Beyond of work harding</h2>
                 <p className="text-[#818181] mt-4">
-                    Dive into the future of technology at InnovateSphere, the ultimate summit for tech enthusiasts, innovators, and industry leaders. Explore the latest breakthroughs, engage with cutting-edge ideas, and connect with visionaries who are shaping the landscape of tomorrow.
+                    Dive into the future of technology With strong commitment
                 </p>
             </div>
         </Container>

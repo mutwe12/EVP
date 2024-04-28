@@ -208,7 +208,7 @@ const EventDetails = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <TiTick className="text-2xl" />
-                  .
+                  
                 </li>
               </ul>
             </div>
