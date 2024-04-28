@@ -46,9 +46,9 @@ const Contact = () => {
           <img src={logo} alt="" className="w-32" />
           <h2 className="text-2xl font-semibold  mb-3">Address</h2>
           <hr className="w-32 " />
-          <h2 className="text-2xl font-semibold">+880 1682 872654</h2>
+          <h2 className="text-2xl font-semibold">+250780520520</h2>
           <p className="text-base mb-3">Book online or call</p>
-          <h2 className="text-2xl font-semibold">contact@dreamcraft.com</h2>
+          <h2 className="text-2xl font-semibold">ishimwefab250@gmail</h2>
           <div className="flex items-center ">
             <p className="text-base mb-3">
               Send us an email or use contact form
@@ -57,7 +57,7 @@ const Contact = () => {
           </div>
           <h2 className="text-2xl font-semibold">Our address</h2>
           <p className="text-base mb-3">
-            Banani, Dhaka <br /> Bangladesh
+            Kacyiru, Kigali <br /> Rwanda
           </p>
         </div>
 
