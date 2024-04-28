@@ -24,9 +24,9 @@ const Contact = () => {
       return;
     }
     // Handle form submission logic here
-    console.log("Email:", email);
-    console.log("Subject:", subject);
-    console.log("Message:", message);
+       //console.log("Email:", email);
+    //console.log("Subject:", subject);
+    //console.log("Message:", message);
     const info = {
       email, subject, message
     }

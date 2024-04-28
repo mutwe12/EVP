@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <MagicBanner></MagicBanner>
-       <Banner/> 
+      {/*  <Banner/> */}
 
       {/* <FeatureEvents/> */}
       <Organizer />

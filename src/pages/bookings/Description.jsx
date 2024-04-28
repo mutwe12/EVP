@@ -51,7 +51,7 @@ const Description = () => {
                 </div>
             </div>
             <div className="my-20">
-                <h2 className="text-lg text-red-600">Innovaation in  - Tech & Beyond of work harding</h2>
+                <h2 className="text-lg text-red-600">Innovaation in IT in kigali  - Tech & Beyond of work harding</h2>
                 <p className="text-[#818181] mt-4">
                     Dive into the future of technology With strong commitment
                 </p>
