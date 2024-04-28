@@ -1,4 +1,4 @@
-# Event Management System and Booking Platform
+# Event Management Platform 
 
 Welcome to the Event Management System, a project built with MERN.
 
