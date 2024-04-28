@@ -8,7 +8,6 @@ Welcome to the Event Management System, a project built with MERN.
 2. **Dedicated dashborad for user, admin, and event organizer**
 3. **Ticketing and Registration**
 4. **Custom Event Creation**
-5. **Payment Gateway Integration**
 6. **Chatbot guide**
 7. **Notification system**
 8. **Interactive Event Pages**
