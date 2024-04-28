@@ -25,7 +25,7 @@ const Schedule = () => {
                         </div>
                         <div className="flex items-center gap-5">
                             <img
-                                src="https://demo.egenslab.com/html/eventlab/assets/images/speaker/speaker-sm1.png"
+                                src="assets/images/speaker/speaker-sm1.png"
                                 alt=""
                             />
                             <div className="space-y-2">
@@ -75,7 +75,7 @@ const Schedule = () => {
                         </div>
                         <div className="flex items-center gap-5">
                             <img
-                                src="https://demo.egenslab.com/html/eventlab/assets/images/speaker/speaker-sm2.png"
+                                src="assets/about/speaker-sm2.png"
                                 alt=""
                             />
                             <div className="space-y-2">

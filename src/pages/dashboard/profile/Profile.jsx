@@ -227,7 +227,7 @@ const Profile = () => {
                         {...register("phone", { required: true })}
                         className="my-auto block w-full rounded border py-3 px-4 text-sm outline-none shadow-sm"
                         defaultValue={user?.phone}
-                        placeholder="+880 123-456-789"
+                        placeholder="number"
                         required
                       />
                     </div>
@@ -241,7 +241,7 @@ const Profile = () => {
                         className="my-auto block w-full rounded border py-3 px-4 text-sm outline-none shadow-sm"
                         defaultValue={user?.email}
                         readOnly={!user?.role !== "admin"}
-                        placeholder="example@site.com"
+                        placeholder="example@gmail.com"
                         required
                       />
                     </div>

@@ -53,7 +53,7 @@ const VideoComponent = () => {
           {/* Replace the <video> element with an <iframe> for YouTube */}
           <iframe
             className="md:w-full md:h-full lg:w-[55%] lg:h-[70%]"
-            src="https://www.youtube.com/embed/eTl2Cxb74r0"
+            src="https://www.youtube.com/watch?v=lXwrg22PPGI"
             frameBorder="0"
             allowFullScreen
             title="YouTube Video"
