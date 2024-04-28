@@ -166,7 +166,7 @@ const AllServices = () => {
         </div>
         {/* card 3 end */}
 
-        {/* card 4  */}
+        {/* card 4  
         <div className="rounded-md shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg bg-white hover:bg-gray-100">
           <div className="rounded-t-md shadow-lg h-60 relative overflow-hidden ">
             <img
@@ -213,7 +213,7 @@ const AllServices = () => {
             </div>
           </div>
         </div>
-        {/* card 4 end */}
+        card 4 end */}
       </div>
     </Container>
   );
