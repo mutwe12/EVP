@@ -26,7 +26,7 @@ const TeamCards = () => {
             </p>
             <div className="flex gap-5 py-2">
               <Link
-                to="https://www.facebook.com/nizam.chowdhury.cs"
+                to=""// fb link
                 target="_blank"
               >
                 <LuFacebook
@@ -35,14 +35,16 @@ const TeamCards = () => {
                   fill="pink"
                 />
               </Link>
-              <Link to="https://twitter.com" target="_blank">
+              <Link to="" // twiter link 
+              target="_blank">
                 <LuTwitter
                   className="inline text-2xl border border-primary text-primary/80 rounded-md p-0.5"
                   size={28}
                   fill="pink"
                 />
               </Link>
-              <Link to="https://www.linkedin.com/in/nizam-chowdhury/" target="_blank">
+              <Link to=""  // linked in link 
+              target="_blank">
                 <LuLinkedin
                   className="inline text-2xl border border-primary text-primary/80 rounded-md p-0.5"
                   size={28}

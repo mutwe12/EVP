@@ -114,31 +114,32 @@ const Cart = () => {
     onGlobalFilterChange: setFiltering,
   });
 
-  // const handleDelete = async (id) => {
-  //     try {
-  //         const swalConfirm = await Swal.fire({
-  //             title: "Are you sure?",
-  //             text: "You won't be able to revert this!",
-  //             icon: "warning",
-  //             showCancelButton: true,
-  //             confirmButtonColor: "#3085d6",
-  //             cancelButtonColor: "#d33",
-  //             confirmButtonText: "Yes, delete it!",
-  //         });
-  //         if (swalConfirm.isConfirmed) {
-  //             const response  = await axios.delete(`/delete-user/${id}`);
-  //             //console.log(response);
-  //             refetch();
-  //             Swal.fire({
-  //                 title: "Deleted!",
-  //                 text: "Your Camp has been deleted.",
-  //                 icon: "success",
-  //             });
-  //         }
-  //     } catch (error) {
-  //         //console.log(error);
-  //     }
-  // };
+   const handleDelete = async (id) => {
+       try {
+          const swalConfirm = await Swal.fire({
+               title: "Are you sure?",
+               text: "You won't be able to revert this!",
+               icon: "warning",
+               showCancelButton: true,
+              confirmButtonColor: "#3085d6",
+             cancelButtonColor: "#d33",
+  
+              confirmButtonText: "Yes, delete it!",
+         });
+         if (swalConfirm.isConfirmed) {
+            const response  = await axios.delete(`/delete-user/${id}`);
+            console.log(response);
+              refetch();
+             Swal.fire({
+                title: "Deleted!",
+                 text: "Your Camp has been deleted.",
+                 icon: "success",
+             });
+         }
+     } catch (error) {
+           console.log(error);
+     }
+   };
 
   return (
     <>
