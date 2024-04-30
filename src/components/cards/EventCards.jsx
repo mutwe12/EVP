@@ -23,8 +23,8 @@ const EventCards = () => {
               onClick={goToAllServices}
               className="text-xl border px-6 py-2 rounded-3xl hover:bg-gradient-to-r from-purple-500 to-emerald-300 hover:text-white border-cyan-500"
             >
-              View All
-            </button>
+              View All Event
+            </button> 
           </div>
         </div>
       </div>
